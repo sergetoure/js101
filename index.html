@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>JS101</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="clarity.js" type="text/javascript"></script>
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TMK0QLX3F7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-TMK0QLX3F7');
-</script>
-    </head>
-    <body>
-        <h1>This is fundamental JS course</h1>
-        <script src="script.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>JS101</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="clarity.js" type="text/javascript"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TMK0QLX3F7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-TMK0QLX3F7');
+    </script>
+</head>
+
+<body>
+    <h1>Interactive Counter</h1>
+    <h2>Account Holder Name: Peter Parker</h2>
+    <p>Followers: <span id="countDisplay">0</span></p>
+    <hr>
+    <h2>Click one button to follow</h2>
+    <button onclick="increaseCount()">Follow</button>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
