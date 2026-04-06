@@ -9,4 +9,5 @@ function displayFeedbackInfo(e) {
         document.getElementById(field).innerText = feedbackInfo.get(field)
     })
     userInfoDiv.style.display = 'block'
+    alert('Thank you for your feed back')
 }
