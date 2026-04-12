@@ -20,3 +20,8 @@ for (let i=0;i<dessertMenu.length;i++){
 }
 
 document.getElementById('dessertMenuItems').innerHTML=dessertItem
+
+
+const fruits=["cherry","apple","orange","strawxberry"]
+const [,best,,worse]=fruits
+console.log(best,worse)
