@@ -6,15 +6,17 @@
 </head>
 <body>
     <h1>Book Management System</h1>
+    <form id="booksystemForm">
     <label for="bookName">Book Name:</label><br>
-    <input type="text" id="bookName"><br><br>
+    <input type="text" id="bookName" name="name"><br><br>
     <label for="authorName">Author Name:</label><br>
-    <textarea id="authorName" rows="4"></textarea><br><br>
+    <textarea id="authorName" rows="4" name="author"></textarea><br><br>
     <label for="bookDescription">Book Description:</label><br>
-    <textarea id="bookDescription" rows="4"></textarea><br><br>
+    <textarea id="bookDescription" rows="4" name="description"></textarea><br><br>
     <label for="pagesNumber">No. of Pages:</label><br>
-    <input type="number" id="pagesNumber"><br><br>
-    <button onclick="addBook()">Add Book</button>
+    <input type="number" id="pagesNumber" name="nopages"><br><br>
+    <button type="submit">Add Book</button>
+    </form>
 
     <h2>books</h2>
     <div id="books">
